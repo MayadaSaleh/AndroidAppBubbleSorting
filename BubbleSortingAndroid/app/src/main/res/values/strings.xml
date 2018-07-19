@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BubbleSortingAndroid</string>
+    <string name="InsertionDone">your Number has been Successfully Inserted</string>
+    <string name="InsertionFailed">Sorry something went wrong, please try again</string>
+    <string name="EmptyFieldWarning">You have to enter number first</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85C1E9"
+    tools:context="main.screen.ui.activity.InsertNumberActivity">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <EditText
+        android:id="@+id/insertedNumber"
+        android:layout_width="239dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="128dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Number here Please"
+        android:inputType="number"
+        android:digits="1234567890"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/insertNewNumber"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Insert Number"
+        android:background="#717D7E"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/insertedNumber"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/showNumbers"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Show Numbers"
+        android:background="#717D7E"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toEndOf="@+id/insertNewNumber"
+        app:layout_constraintTop_toBottomOf="@+id/insertedNumber"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+
+
+
+

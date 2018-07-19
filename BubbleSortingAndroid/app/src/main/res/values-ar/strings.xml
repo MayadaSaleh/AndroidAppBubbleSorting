@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">برنامج ترتيب الأرقام</string>
+    <string name="InsertionDone">لقد تم إدخال الرقم بنجاح</string>
+    <string name="InsertionFailed">للأسف قد حدث خطأ، من فضلك أعد المحاولة مرة أخرى</string>
+    <string name="EmptyFieldWarning">يجب عليك إدخال الرقم أولا</string>
+</resources>
