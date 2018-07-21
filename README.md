@@ -5,7 +5,8 @@ Bubble Sorting is android Application that contains two screens.
 # Steps to Run project 
 * create database schema with bubblesorting name has one table called bubblenumber has two columns id and number accepts int and not null.
 * open API project https://github.com/MayadaSaleh/APIBubbleSortingTask and change database connectivity in 
-###### APIBubbleSortingTask/src/java/database/connection/DatabaseConnection.java by your URL,USERNAME,PASSWORD configuration.
+###### APIBubbleSortingTask/src/java/database/connection/DatabaseConnection.java
+by your URL,USERNAME,PASSWORD configuration.
 * Run APIBubbleSortingTask project.
 * open AndroidAppBubbleSorting project and change BASE_URL  in 
 ###### AndroidAppBubbleSorting/BubbleSortingAndroid/app/src/main/java/main/screen/control/APIRetrofitUtils.java 
